@@ -208,13 +208,12 @@ document.getElementById("whatsappForm").addEventListener("submit", function(e){
 
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
-    let phoneNumber = document.getElementById("Phone Number").value;
     let subject = document.getElementById("subject").value;
     let message = document.getElementById("message").value;
 
-    let phone = "254798450404"; // Replace with your WhatsApp number
+    let phone = "254795805814"; // Replace with your WhatsApp number
 
-    let text = `Hello, I have a message from the website:%0A
+    let text = `Hello, I have a message from your website:%0A
 Name: ${name}%0A
 Email: ${email}%0A
 Subject: ${subject}%0A
